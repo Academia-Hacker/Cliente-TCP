@@ -12,7 +12,7 @@ client.connect((target_host, target_port))
 
 #envia alguns dados
 #client.send(b"GET /HTTP/1.1\r\nHost: google.com\r\n\r\n")
-msg = 'Hello, World! Eu sou o cliente'
+msg = 'Academia Hacker'
 client.send(msg.encode())
 
 #recebe alguns dados
